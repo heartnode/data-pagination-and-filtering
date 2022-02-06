@@ -121,8 +121,8 @@ function searchBar(list){
 
 // Call functions
 document.addEventListener('DOMContentLoaded',()=>{
-   let dataX = data; //.slice(0,5);
-   showPage(dataX,0);
-   addPagination(dataX);
-   searchBar(dataX);
+   //for test data.slice(0,5);
+   showPage(data,0);
+   addPagination(data);
+   searchBar(data);
 });
